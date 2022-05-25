@@ -5,6 +5,11 @@
 | WORK_EMAIL:     | raramayo@tamu.edu   |
 | PERSONAL_EMAIL: | rodolfo@aramayo.org |
 
+| Author:         | WORK_EMAIL        | PERSONAL_EMAIL      |
+| --------------- | ----------------- | ------------------  |
+| Rodolfo Aramayo | raramayo@tamu.edu | rodolfo@aramayo.org |
+
+
 ## Motivation
 
 ```
