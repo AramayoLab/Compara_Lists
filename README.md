@@ -1,6 +1,5 @@
 # **<p align="center">Compara_Lists</p>**
-## _<p align="center">**Rodolfo Aramayo**</p>_
-## _<p align="center">**raramayo@tamu.edu**</p>_
+## _<p align="center">**AramayoLab**</p>_
 
 ## Motivation
 
@@ -66,11 +65,13 @@ PERSONAL_EMAIL:                    rodolfo@aramayo.org
 
 ## Development/Testing Environment:
 
-	Distributor ID:       Ubuntu
-	Description:  Ubuntu 20.04.4 LTS
-    Release:      20.04
-    Codename:     focal
-   
+```
+Distributor ID:       Ubuntu
+Description:  Ubuntu 20.04.4 LTS
+Release:      20.04
+Codename:     focal
+```
+
 ## Required Script Dependencies:
 ### GNU COREUTILS (https://www.gnu.org/software/coreutils/)
 #### Tested With Version Numbers:
