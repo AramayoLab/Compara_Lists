@@ -1,11 +1,13 @@
 # **<p align="center">Compara_Lists</p>**
 ## _<p align="center">**AramayoLab**</p>_
 
-<center>
+<div align="center">
+
 | Author          | Work Email        | Personal Email      |
 | --              | --                | --                  |
 | Rodolfo Aramayo | raramayo@tamu.edu | rodolfo@aramayo.org |
-</center>
+
+</div>
 
 ## Motivation
 
