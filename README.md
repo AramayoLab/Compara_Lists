@@ -3,9 +3,9 @@
 
 <p align="center">
 
-| Author          | Work Email        | Personal Email      |
-| --              | --                | --                  |
-| Rodolfo Aramayo | raramayo@tamu.edu | rodolfo@aramayo.org |
+          | Author          | Work Email        | Personal Email      |
+          | --              | --                | --                  |
+          | Rodolfo Aramayo | raramayo@tamu.edu | rodolfo@aramayo.org |
 
 </p>
 
