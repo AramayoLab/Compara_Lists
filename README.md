@@ -1,4 +1,4 @@
-<p align="center">**Compara_Lists**</p>
+**<p align="center">Compara_Lists</p>**
 <p align="center">**Rodolfo Aramayo**</p>
 <p align="center">**raramayo@tamu.edu**</p>
 
