@@ -77,20 +77,24 @@ Codename:     focal
 #### Tested With Version Numbers:
 #### 8.30
 
-	comm (GNU coreutils) 8.30
-	Copyright (C) 2018 Free Software Foundation, Inc.
-	License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
-	This is free software: you are free to change and redistribute it.
-	There is NO WARRANTY, to the extent permitted by law.
-	
-	Written by Richard M. Stallman and David MacKenzie.
-          
+```
+comm (GNU coreutils) 8.30
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Richard M. Stallman and David MacKenzie.
+```
+
 ##### 8.32
 
-	comm (GNU coreutils) 8.32
-	Copyright (C) 2020 Free Software Foundation, Inc.
-	License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
-	This is free software: you are free to change and redistribute it.
-	There is NO WARRANTY, to the extent permitted by law.
-	
-	Written by Richard M. Stallman and David MacKenzie.
+```
+comm (GNU coreutils) 8.32
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Richard M. Stallman and David MacKenzie.
+```
