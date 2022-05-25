@@ -90,7 +90,7 @@ PERSONAL_EMAIL:                    rodolfo@aramayo.org
           
 ##### 8.32
 
-      ```
+
       comm (GNU coreutils) 8.32
       Copyright (C) 2020 Free Software Foundation, Inc.
       License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
@@ -98,5 +98,5 @@ PERSONAL_EMAIL:                    rodolfo@aramayo.org
       There is NO WARRANTY, to the extent permitted by law.
       
       Written by Richard M. Stallman and David MacKenzie.
-      ```
+
       
