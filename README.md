@@ -1,6 +1,6 @@
 # **<p align="center">Compara_Lists</p>**
-<p align="center">**Rodolfo Aramayo**</p>
-<p align="center">**raramayo@tamu.edu**</p>
+## _<p align="center">**Rodolfo Aramayo**</p>_
+## _<p align="center">**raramayo@tamu.edu**</p>_
 
 ## Motivation
 
@@ -77,6 +77,7 @@ PERSONAL_EMAIL:                    rodolfo@aramayo.org
 ### GNU COREUTILS (https://www.gnu.org/software/coreutils/)
 #### Tested With Version Numbers:
 #### 8.30
+
      ```
      comm (GNU coreutils) 8.30
      Copyright (C) 2018 Free Software Foundation, Inc.
@@ -88,6 +89,7 @@ PERSONAL_EMAIL:                    rodolfo@aramayo.org
      ```
           
 ##### 8.32
+
       ```
       comm (GNU coreutils) 8.32
       Copyright (C) 2020 Free Software Foundation, Inc.
