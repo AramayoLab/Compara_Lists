@@ -1,6 +1,10 @@
 # **<p align="center">Compara_Lists</p>**
 ## _<p align="center">**AramayoLab**</p>_
 
+| Author:         | Rodolfo Aramayo     |
+| WORK_EMAIL:     | raramayo@tamu.edu   |
+| PERSONAL_EMAIL: | rodolfo@aramayo.org |
+
 ## Motivation
 
 ```
