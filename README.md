@@ -12,9 +12,9 @@
 ## Motivation
 
 ```
-The main motivation for generating this script was reproducibility and replicability, when comparing list of
-IDs. Mainly, I wanted to make sure that students evaluating information present in different files used the same set of 
-commands, thus eliminating any possibility of error.
+The main motivation for generating this script was reproducibility and replicability, when comparing
+list of IDs. Mainly, I wanted to make sure that students evaluating information present in different
+files used the same set of commands, thus eliminating any possibility of error
 ```
 
 ## Documentation
