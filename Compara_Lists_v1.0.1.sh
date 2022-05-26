@@ -43,27 +43,27 @@ USAGE: ${0}
        -b List B                   # REQUIRED input (e.g., listB)
        -B List B Name              # OPTIONAL (e.g., listB)
 
-TYPICAL COMMAND:                   Compara_Lists_v1.0.0.sh -a listA -A listA -b listB -B listB
+TYPICAL COMMAND:                   Compara_Lists_v1.0.1.sh -a listA -A listA -b listB -B listB
 
-INPUT01:          -a FLAG          REQUIRED input  (e.g., listA)
+INPUT01:          -a FLAG          Name of a single column text file containing records IDs to be compared (e.g., listA)
 INPUT01_DEFAULT:                   No Default. ListA file must be provided
-INPUT01_FORMAT:                    Text file
-INPUT01_NOTES:                     Single column text file
+INPUT01_FORMAT:                    Single column text file
+INPUT01_NOTES:                     Required
 
-INPUT02:          -A FLAG          OPTIONAL (ListA_Label)
+INPUT02:          -A FLAG          Name of the listA dataset or listA dataset label
 INPUT02_DEFAULT:                   listA
 INPUT02_FORMAT:                    Text
-INPUT02_NOTES:                     Optional
+INPUT02_NOTES:                     Optional. Label will be used to name the output files
 
-INPUT03:          -b FLAG          REQUIRED input  (e.g., listB)
+INPUT03:          -b FLAG          Name of a single column text file containing records IDs to be compared (e.g., listB)
 INPUT03_DEFAULT:                   No Default. ListB file must be provided
-INPUT03_FORMAT:                    Text file
-INPUT03_NOTES:                     Single column text file
+INPUT03_FORMAT:                    Single column text file
+INPUT03_NOTES:                     Required
 
-INPUT04:          -B FLAG          OPTIONAL (ListB_Lable)
+INPUT04:          -B FLAG          Name of the listA dataset or listB dataset label
 INPUT04_DEFAULT:                   listB
 INPUT04_FORMAT:                    Text
-INPUT04_NOTES:                     Optional
+INPUT04_NOTES:                     Optional. Label will be used to name the output files
 
 DEPENDENCIES:                      GNU COREUTILS Required (https://www.gnu.org/software/coreutils/)
 
@@ -73,10 +73,11 @@ EOF
 };
 
 ## Defining_Script_Current_Version
-version=1.0.0;
+version=1.0.1;
 
 ## Defining_Script_Initial_Version_Data (date '+DATE:%Y/%m/%d%tTIME:%R')
-version_date_initial="DATE:2021/08/21	TIME:00:00";
+version_date_initial="DATE:2022/05/26	TIME:09:13";
+#DATE:2021/08/21	TIME:00:00;
 
 ## Defining_Script_Current_Version_Data (date '+DATE:%Y/%m/%d%tTIME:%R')
 version_date_current="DATE:2022/05/25	TIME:16:26"

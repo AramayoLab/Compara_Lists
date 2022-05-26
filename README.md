@@ -1,5 +1,5 @@
 # **<p align="center">Compara_Lists</p>**
-## _<p align="center">**AramayoLab**</p>_
+# _<p align="center">**AramayoLab**</p>_
 
 <div align="center">
 
@@ -12,8 +12,8 @@
 ## Motivation
 
 ```
-My main motivation for this script was reproducibility and replicability, when comparing list of
-IDs. Mainly, I wanted to make sure that students evaluating different files used the same set of
+The main motivation for generating this script was reproducibility and replicability, when comparing list of
+IDs. Mainly, I wanted to make sure that students evaluating information present in different files used the same set of 
 commands, thus eliminating any possibility of error.
 ```
 
@@ -34,9 +34,9 @@ You should have received a copy of the GNU General Public License along with thi
 see <https://www.gnu.org/licenses/>.
 
 SCRIPT_NAME:                       Compara_Lists_v01.sh
-SCRIPT_VERSION:                    v1.0.0
+SCRIPT_VERSION:                    v1.0.1
 
-USAGE: ./Compara_Lists_v01.sh
+USAGE: ${0}
        -a List A                   # REQUIRED input (e.g., listA)
        -A List A Name              # OPTIONAL (e.g., listA)
        -b List B                   # REQUIRED input (e.g., listB)
@@ -44,25 +44,25 @@ USAGE: ./Compara_Lists_v01.sh
 
 TYPICAL COMMAND:                   Compara_Lists_v1.0.1.sh -a listA -A listA -b listB -B listB
 
-INPUT01:          -a FLAG          REQUIRED input  (e.g., listA)
+INPUT01:          -a FLAG          Name of a single column text file containing records IDs to be compared (e.g., listA)
 INPUT01_DEFAULT:                   No Default. ListA file must be provided
-INPUT01_FORMAT:                    Text file
-INPUT01_NOTES:                     Single column text file
+INPUT01_FORMAT:                    Single column text file
+INPUT01_NOTES:                     Required
 
-INPUT02:          -A FLAG          OPTIONAL (ListA_Label)
+INPUT02:          -A FLAG          Name of the listA dataset or listA dataset label
 INPUT02_DEFAULT:                   listA
 INPUT02_FORMAT:                    Text
-INPUT02_NOTES:                     Optional
+INPUT02_NOTES:                     Optional. Label will be used to name the output files
 
-INPUT03:          -b FLAG          REQUIRED input  (e.g., listB)
+INPUT03:          -b FLAG          Name of a single column text file containing records IDs to be compared (e.g., listB)
 INPUT03_DEFAULT:                   No Default. ListB file must be provided
-INPUT03_FORMAT:                    Text file
-INPUT03_NOTES:                     Single column text file
+INPUT03_FORMAT:                    Single column text file
+INPUT03_NOTES:                     Required
 
-INPUT04:          -B FLAG          OPTIONAL (ListB_Lable)
+INPUT04:          -B FLAG          Name of the listA dataset or listB dataset label
 INPUT04_DEFAULT:                   listB
 INPUT04_FORMAT:                    Text
-INPUT04_NOTES:                     Optional
+INPUT04_NOTES:                     Optional. Label will be used to name the output files
 
 DEPENDENCIES:                      GNU COREUTILS Required (https://www.gnu.org/software/coreutils/)
 
