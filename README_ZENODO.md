@@ -1,9 +1,4 @@
 # _**Organization:   AramayoLab**_
-## **Script Name:    Compara_Lists**
-## **Script Version: v1.0.1**
-### _Author:          Rodolfo Aramayo_
-### _Work Email:      raramayo@tamu.edu_
-### _Personal Email:  rodolfo@aramayo.org_
 
 ## Motivation
 
