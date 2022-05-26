@@ -12,9 +12,10 @@
 ## Motivation
 
 ```
-The main motivation for generating this script was reproducibility and replicability, when comparing
-list of IDs. Mainly, I wanted to make sure that students evaluating information present in different
-files used the same set of commands, thus eliminating any possibility of error
+The main motivation for generating this script was reproducibility and
+replicability, when comparing list of IDs. Mainly, I wanted to make sure that
+students evaluating information present in different files used the same set of
+commands, thus eliminating any possibility of error
 ```
 
 ## Documentation
@@ -22,16 +23,17 @@ files used the same set of commands, thus eliminating any possibility of error
 ```
 ARAMAYO_LAB
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU
-General Public License as published by the Free Software Foundation, either version 3 of the
-License, or (at your option) any later version.
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
-even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with this program. If not,
-see <https://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License along with
+this program. If not, see <https://www.gnu.org/licenses/>.
 
 SCRIPT_NAME:                       Compara_Lists_v01.sh
 SCRIPT_VERSION:                    v1.0.1
