@@ -1,4 +1,4 @@
-# _**Organization:   AramayoLab**_
+# _**AramayoLab**_
 
 ## Motivation
 
