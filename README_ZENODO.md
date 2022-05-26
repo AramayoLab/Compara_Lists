@@ -1,5 +1,5 @@
 # _**AramayoLab**_
-
+----
 ## Motivation
 
 ``` 
@@ -62,7 +62,7 @@ Author:                            Rodolfo Aramayo
 WORK_EMAIL:                        raramayo@tamu.edu
 PERSONAL_EMAIL:                    rodolfo@aramayo.org
 ```
-
+----
 ## Development/Testing Environment:
 
 ```
@@ -71,7 +71,7 @@ Description:                       Ubuntu 20.04.4 LTS
 Release:                           20.04
 Codename:                          focal
 ```
-
+----
 ## Required Script Dependencies:
 ### GNU COREUTILS (https://www.gnu.org/software/coreutils/)
 #### Tested With Version Numbers:
