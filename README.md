@@ -76,9 +76,9 @@ PERSONAL_EMAIL:                    rodolfo@aramayo.org
 
 ```
 Distributor ID:       Ubuntu
-Description:  Ubuntu 20.04.4 LTS
-Release:      20.04
-Codename:     focal
+Description:          Ubuntu 20.04.4 LTS
+Release:              20.04
+Codename:             focal
 ```
 
 ## Required Script Dependencies:
