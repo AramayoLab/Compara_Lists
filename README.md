@@ -3,7 +3,7 @@
 ## Author: Rodolfo Aramayo
 ### Work Email: raramayo@tamu.edu
 ### Personal Email: rodolfo@aramayo.org
-## License: Licensed under [https://www.gnu.org/licenses/gpl-3.0.en.html](GPL-3.0-or-later)
+## License: Licensed under [GPL-3.0-or-later](https://www.gnu.org/licenses/gpl-3.0.en.html)
 ## Objective:
 
 ``` 
