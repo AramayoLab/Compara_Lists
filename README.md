@@ -1,15 +1,10 @@
-# _<p align="center">**AramayoLab**</p>_
-# **<p align="center">Compara_Lists</p>** **<p align="center">v1.0.1</p>**
-
-<div align="center">
-
-| Author          | Work Email        | Personal Email      |
-| --              | --                | --                  |
-| Rodolfo Aramayo | raramayo@tamu.edu | rodolfo@aramayo.org |
-
-</div>
-
-## Objective
+## Script Title: Compara_Lists
+## Organization: Aramayolab
+## Author: Rodolfo Aramayo
+### Work Email: raramayo@tamu.edu
+### Personal Email: rodolfo@aramayo.org
+## License: Licensed under [https://www.gnu.org/licenses/gpl-3.0.en.html](GPL-3.0-or-later)
+## Objective:
 
 ``` 
 The main motivation for generating this script was reproducibility and replicability, when comparing
@@ -17,8 +12,7 @@ list of IDs. Mainly, I wanted to make sure that students evaluating information 
 files used the same set of commands, thus eliminating any possibility of error
 
 ```
-
-## Documentation
+## Documentation:
 
 ``` 
 ARAMAYO_LAB
@@ -80,12 +74,10 @@ Description:                       Ubuntu 20.04.4 LTS
 Release:                           20.04
 Codename:                          focal
 ```
-
 ## Required Script Dependencies:
-### GNU COREUTILS (https://www.gnu.org/software/coreutils/)
-#### Tested With Version Numbers:
-#### 8.30
-
+   + GNU COREUTILS (https://www.gnu.org/software/coreutils/)
+   + Tested With Version Numbers: 8.30 and 8.32
+   + 8.30:
 ```
 comm (GNU coreutils) 8.30
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -95,9 +87,7 @@ There is NO WARRANTY, to the extent permitted by law.
 
 Written by Richard M. Stallman and David MacKenzie.
 ```
-
-##### 8.32
-
+   + 8.32:
 ```
 comm (GNU coreutils) 8.32
 Copyright (C) 2020 Free Software Foundation, Inc.
