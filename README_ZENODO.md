@@ -1,17 +1,10 @@
-## Organization: Aramayolab
-
 ## Script Title: Compara_Lists
-
 ## Version: v1.0.1
-
+## Organization: Aramayolab
 ## Author: Rodolfo Aramayo (raramayo@tamu.edu)
-
 ### Work Email: raramayo@tamu.edu
-
 ### Personal Email: rodolfo@aramayo.org
-
 ## License: Licensed under [https://www.gnu.org/licenses/gpl-3.0.en.html](GPL-3.0-or-later)
-
 ## Objective:
 
 ``` 
