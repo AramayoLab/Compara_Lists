@@ -1,10 +1,18 @@
-# ORGANIZATION: AramayoLab
+# Organization: Aramayolab
 
-# SCRIPT TITLE: Compara_Lists
+# Script Title: Compara_Lists
 
-# VERSION: v1.0.1
+# Version: v1.0.1
 
-## OBJECTIVE:
+# Author: Rodolfo Aramayo (raramayo@tamu.edu)
+
+## Work Email: raramayo@tamu.edu
+
+## Personal Email: rodolfo@aramayo.org
+
+# License: Licensed under GPL-3.0-or-later
+
+## Objective:
 
 ``` 
 The main motivation for generating this script was reproducibility and replicability, when comparing
@@ -13,7 +21,7 @@ files used the same set of commands, thus eliminating any possibility of error
 
 ```
 
-## DOCUMENTATION:
+## Documentation:
 
 ``` 
 ARAMAYO_LAB
@@ -67,7 +75,7 @@ WORK_EMAIL:                        raramayo@tamu.edu
 PERSONAL_EMAIL:                    rodolfo@aramayo.org
 ```
 
-## DEVELOPMENT/TESTING ENVIRONMENT:
+## Development/Testing Environment:
 
 ```
 Distributor ID:                    Ubuntu
@@ -76,7 +84,7 @@ Release:                           20.04
 Codename:                          focal
 ```
 
-## REQUIRED SCRIPT DEPENDENCIES:
+## Required Script Dependencies:
    + GNU COREUTILS (https://www.gnu.org/software/coreutils/)
    + Tested With Version Numbers: 8.30 and 8.32
    + 8.30:
