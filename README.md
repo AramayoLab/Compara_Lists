@@ -9,7 +9,7 @@
 
 </div>
 
-## Motivation
+## Objective
 
 ``` 
 The main motivation for generating this script was reproducibility and replicability, when comparing
