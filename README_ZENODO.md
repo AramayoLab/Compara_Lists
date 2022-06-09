@@ -1,5 +1,4 @@
 ## Script Title: Compara_Lists
-## Version: v1.0.1
 ## Organization: Aramayolab
 ## Author: Rodolfo Aramayo (raramayo@tamu.edu)
 ### Work Email: raramayo@tamu.edu
