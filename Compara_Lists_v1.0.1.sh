@@ -30,7 +30,7 @@ AUTHORS
 func_usage ()
 {
     cat <<EOF
-
+########################################################################################################################################################################################################
 ARAMAYO_LAB
 $(func_copyright)
 
@@ -68,7 +68,7 @@ INPUT04_NOTES:                     Optional. Label will be used to name the outp
 DEPENDENCIES:                      GNU COREUTILS Required (https://www.gnu.org/software/coreutils/)
 
 $(func_authors)
-
+########################################################################################################################################################################################################
 EOF
 };
 
@@ -80,12 +80,13 @@ version_date_initial="DATE:2022/05/26	TIME:09:13";
 #DATE:2021/08/21	TIME:00:00;
 
 ## Defining_Script_Current_Version_Data (date '+DATE:%Y/%m/%d%tTIME:%R')
-version_date_current="DATE:2022/05/25	TIME:16:26"
+version_date_current="DATE:2022/11/30	TIME:17:17";
 
 ## Testing_Script_Input
 ## Is the number of arguments null?
-if [[ "${#}" -eq "0" ]];
+if [[ ${#} -eq 0 ]];
 then
+    echo -e "\nPlease enter required arguments";
     func_usage;
     exit 1;
 fi

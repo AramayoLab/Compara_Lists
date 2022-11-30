@@ -1,20 +1,5 @@
-## Script Title: Compara_Lists
-## Organization: Aramayolab
-## Author: Rodolfo Aramayo
-### Work Email: raramayo@tamu.edu
-### Personal Email: rodolfo@aramayo.org
-## License: Licensed under [GPL-3.0-or-later](https://www.gnu.org/licenses/gpl-3.0.en.html)
-## Objective:
-
-``` 
-The main motivation for generating this script was reproducibility and replicability, when comparing
-list of IDs. Mainly, I wanted to make sure that students evaluating information present in different
-files used the same set of commands, thus eliminating any possibility of error
-
-```
-## Documentation:
-
-``` 
+#+BEGIN_EXAMPLE
+########################################################################################################################################################################################################
 ARAMAYO_LAB
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU
@@ -28,10 +13,10 @@ General Public License for more details.
 You should have received a copy of the GNU General Public License along with this program. If not,
 see <https://www.gnu.org/licenses/>.
 
-SCRIPT_NAME:                       Compara_Lists_v01.sh
+SCRIPT_NAME:                       Compara_Lists_v1.0.1.sh
 SCRIPT_VERSION:                    v1.0.1
 
-USAGE: ${0}
+USAGE: ./Compara_Lists_v1.0.1.sh
        -a List A                   # REQUIRED input (e.g., listA)
        -A List A Name              # OPTIONAL (e.g., listA)
        -b List B                   # REQUIRED input (e.g., listB)
@@ -64,36 +49,5 @@ DEPENDENCIES:                      GNU COREUTILS Required (https://www.gnu.org/s
 Author:                            Rodolfo Aramayo
 WORK_EMAIL:                        raramayo@tamu.edu
 PERSONAL_EMAIL:                    rodolfo@aramayo.org
-```
-
-## Development/Testing Environment:
-
-```
-Distributor ID:                    Ubuntu
-Description:                       Ubuntu 20.04.4 LTS
-Release:                           20.04
-Codename:                          focal
-```
-## Required Script Dependencies:
-   + GNU COREUTILS (https://www.gnu.org/software/coreutils/)
-   + Tested With Version Numbers: 8.30 and 8.32
-   + 8.30:
-```
-comm (GNU coreutils) 8.30
-Copyright (C) 2018 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
-
-Written by Richard M. Stallman and David MacKenzie.
-```
-   + 8.32:
-```
-comm (GNU coreutils) 8.32
-Copyright (C) 2020 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
-
-Written by Richard M. Stallman and David MacKenzie.
-```
+########################################################################################################################################################################################################
+#+END_EXAMPLE
