@@ -1,4 +1,17 @@
-#+BEGIN_EXAMPLE
+# **AramayoLab**
+
+## **Motivation**
+
+```
+The main motivation for generating this script was reproducibility and replicability, when comparing
+list of IDs. Mainly, I wanted to make sure that students evaluating information present in different
+files used the same set of commands, thus eliminating any possibility of error
+
+```
+
+## Documentation
+
+```
 ########################################################################################################################################################################################################
 ARAMAYO_LAB
 
@@ -50,4 +63,40 @@ Author:                            Rodolfo Aramayo
 WORK_EMAIL:                        raramayo@tamu.edu
 PERSONAL_EMAIL:                    rodolfo@aramayo.org
 ########################################################################################################################################################################################################
-#+END_EXAMPLE
+```
+
+## Development/Testing Environment:
+
+```
+Distributor ID:       Ubuntu
+Description:          Ubuntu 20.04.4 LTS
+Release:              20.04
+Codename:             focal
+```
+
+## Required Script Dependencies:
+### GNU COREUTILS (https://www.gnu.org/software/coreutils/)
+#### Tested With Version Numbers:
+#### 8.30
+
+```
+comm (GNU coreutils) 8.30
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Richard M. Stallman and David MacKenzie.
+```
+
+##### 8.32
+
+```
+comm (GNU coreutils) 8.32
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Richard M. Stallman and David MacKenzie.
+```
