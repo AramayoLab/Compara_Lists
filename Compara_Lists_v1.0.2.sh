@@ -35,7 +35,7 @@ ARAMAYO_LAB
 $(func_copyright)
 
 SCRIPT_NAME:                       $(basename ${0})
-SCRIPT_VERSION:                    v${version}
+SCRIPT_VERSION:                    ${version}
 
 USAGE: ${0}
        -a List A                   # REQUIRED input (e.g., listA)
