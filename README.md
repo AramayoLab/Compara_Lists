@@ -26,7 +26,7 @@ General Public License for more details.
 You should have received a copy of the GNU General Public License along with this program. If not,
 see <https://www.gnu.org/licenses/>.
 
-SCRIPT_NAME:                       Compara_Lists_v1.0.1.sh
+SCRIPT_NAME:                       Compara_Lists_v1.0.2.sh
 SCRIPT_VERSION:                    1.0.2
 
 USAGE: ./Compara_Lists_v1.0.1.sh

@@ -73,14 +73,13 @@ EOF
 };
 
 ## Defining_Script_Current_Version
-version=1.0.1;
+version=1.0.2;
 
 ## Defining_Script_Initial_Version_Data (date '+DATE:%Y/%m/%d%tTIME:%R')
 version_date_initial="DATE:2022/05/26	TIME:09:13";
-#DATE:2021/08/21	TIME:00:00;
 
 ## Defining_Script_Current_Version_Data (date '+DATE:%Y/%m/%d%tTIME:%R')
-version_date_current="DATE:2022/11/30	TIME:17:17";
+version_date_current="DATE:2022/11/30	TIME:18:21";
 
 ## Testing_Script_Input
 ## Is the number of arguments null?
