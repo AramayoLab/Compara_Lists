@@ -37,13 +37,13 @@ $(func_copyright)
 SCRIPT_NAME:                       $(basename ${0})
 SCRIPT_VERSION:                    ${version}
 
-USAGE: ${0}
+USAGE: $(basename ${0})
        -a List A                   # REQUIRED input (e.g., listA)
        -A List A Name              # OPTIONAL (e.g., listA)
        -b List B                   # REQUIRED input (e.g., listB)
        -B List B Name              # OPTIONAL (e.g., listB)
 
-TYPICAL COMMAND:                   Compara_Lists_v1.0.1.sh -a listA -A listA -b listB -B listB
+TYPICAL COMMAND:                   $(basename ${0}) -a listA -A listA -b listB -B listB
 
 INPUT01:          -a FLAG          Name of a single column text file containing records IDs to be compared (e.g., listA)
 INPUT01_DEFAULT:                   No Default. ListA file must be provided
@@ -98,7 +98,7 @@ do
             exit 0;
             ;;
         -v|--v|-version|--version)
-            printf "Script: ${0} Version: $version %s\n" >&2;
+            printf "Version: $version %s\n" >&2;
             exit 0;
             ;;
         -a|--a)

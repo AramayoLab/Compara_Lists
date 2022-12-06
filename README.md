@@ -76,8 +76,7 @@ Codename:             focal
 
 ## Required Script Dependencies:
 ### GNU COREUTILS (https://www.gnu.org/software/coreutils/)
-#### Tested With Version Numbers:
-#### 8.30
+#### Version Number: 8.30
 
 ```
 comm (GNU coreutils) 8.30
@@ -89,7 +88,7 @@ There is NO WARRANTY, to the extent permitted by law.
 Written by Richard M. Stallman and David MacKenzie.
 ```
 
-##### 8.32
+#### Version Number: 8.32
 
 ```
 comm (GNU coreutils) 8.32
