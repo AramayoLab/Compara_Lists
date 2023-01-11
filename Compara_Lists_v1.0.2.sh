@@ -73,17 +73,17 @@ EOF
 };
 
 ## Defining_Script_Current_Version
-version=1.0.2;
+version="1.0.2";
 
 ## Defining_Script_Initial_Version_Data (date '+DATE:%Y/%m/%d%tTIME:%R')
 version_date_initial="DATE:2022/05/26	TIME:09:13";
 
 ## Defining_Script_Current_Version_Data (date '+DATE:%Y/%m/%d%tTIME:%R')
-version_date_current="DATE:2022/11/30	TIME:18:21";
+version_date_current="DATE:2022/12/07	TIME:09:43";
 
 ## Testing_Script_Input
 ## Is the number of arguments null?
-if [[ ${#} -eq 0 ]];
+if [[ $# -eq 0 ]];
 then
     echo -e "\nPlease enter required arguments";
     func_usage;
@@ -92,7 +92,7 @@ fi
 
 while true;
 do
-    case "$1" in
+    case $1 in
         -h|--h|-help|--help|-\?|--\?)
             func_usage;
             exit 0;
@@ -163,30 +163,30 @@ do
     shift;
 done
 
-var_01=${listA};
-var_02=${nameA:=ListA};
-var_03=${listB};
-var_04=${nameB:=ListB};
+var_listA="$listA";
+var_nameA="${nameA:=ListA}";
+var_listB="$listB";
+var_nameB="${nameB:=ListB}";
 
 #Printing terms that are only present in List_A
 #_File_001
 comm -23 \
-     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_01" | sort | uniq | sed '/^$/d') \
-     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_03" | sort | uniq | sed '/^$/d') \
-     > ./Comparing_"${var_02}"_vs_"${var_04}"_Terms_Only_Present_"$var_02".out;
+     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_listA" | sort | uniq | sed '/^$/d') \
+     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_listB" | sort | uniq | sed '/^$/d') \
+     > ./Comparing_"$var_nameA"_vs_"$var_nameB"_Terms_Only_Present_"$var_nameA".out;
 
 #Printing terms that are only present in List_B
 #_File_002
 comm -13 \
-     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_01" | sort | uniq | sed '/^$/d') \
-     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_03" | sort | uniq | sed '/^$/d') \
-     > ./Comparing_"${var_02}"_vs_"${var_04}"_Terms_Only_Present_"$var_04".out;
+     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_listA" | sort | uniq | sed '/^$/d') \
+     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_listB" | sort | uniq | sed '/^$/d') \
+     > ./Comparing_"$var_nameA"_vs_"$var_nameB"_Terms_Only_Present_"$var_nameB".out;
 
 #Printing terms that are common to both List_A and List_B
 #_File_003
 comm -12 \
-     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_01" | sort | uniq | sed '/^$/d') \
-     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_03" | sort | uniq | sed '/^$/d') \
-     > ./Comparing_"${var_02}"_vs_"${var_04}"_Terms_Present_"$var_02"_and_"$var_04".out;
+     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_listA" | sort | uniq | sed '/^$/d') \
+     <(awk 'BEGIN{FS=OFS="\t" }{print $1}' ./"$var_listB" | sort | uniq | sed '/^$/d') \
+     > ./Comparing_"$var_nameA"_vs_"$var_nameB"_Terms_Present_"$var_nameA"_and_"$var_nameB".out;
 
 exit 0
