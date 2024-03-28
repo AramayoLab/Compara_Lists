@@ -1,4 +1,5 @@
-# **AramayoLab**
+**[![DOI](https://zenodo.org/badge/496398714.svg)](https://zenodo.org/doi/10.5281/zenodo.6582472)**
+# **Compara_Lists**
 
 ## **Motivation**
 
